@@ -1,8 +1,8 @@
 {
-  "name": "electron-react-boilerplate",
-  "productName": "ElectronReact",
-  "version": "0.10.0",
-  "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
+  "name": "subtler",
+  "productName": "Subtler",
+  "version": "0.1.0",
+  "description": "Subtitle downloader and management",
   "main": "main.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test BABEL_DISABLE_CACHE=1 mocha --retries 2 --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
@@ -29,8 +29,7 @@
   },
   "browserslist": "electron 1.4",
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.develar.ElectronReact",
+    "productName": "Subtler",
     "category": "public.app-category.tools",
     "dmg": {
       "contents": [
@@ -50,7 +49,7 @@
     "files": [
       "dist/",
       "node_modules/",
-      "app.html",
+      "index.html",
       "main.js",
       "main.js.map",
       "package.json"
@@ -74,16 +73,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    "url": "git+https://github.com/steezeburger/subtler.git"
   },
   "author": {
-    "name": "C. T. Lin",
-    "email": "chentsulin@gmail.com",
-    "url": "https://github.com/chentsulin"
+    "name": "Jesse Snyder",
+    "email": "jessetsnyder@gmail.com",
+    "url": "https://github.com/steezeburger"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    "url": "https://github.com/steezeburger/subtler/issues"
   },
   "keywords": [
     "electron",
@@ -94,7 +93,7 @@
     "webpack",
     "react-hot"
   ],
-  "homepage": "https://github.com/chentsulin/electron-react-boilerplate#readme",
+  "homepage": "https://github.com/steezeburger/subtler#readme",
   "devDependencies": {
     "asar": "^0.13.0",
     "babel-core": "^6.22.1",

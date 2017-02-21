@@ -90,8 +90,8 @@ export default validate(merge(baseConfig, {
      * Dynamically generate index.html page
      */
     new HtmlWebpackPlugin({
-      filename: '../app.html',
-      template: 'app/app.html',
+      filename: '../index.html',
+      template: 'app/index.html',
       inject: false
     })
   ],
